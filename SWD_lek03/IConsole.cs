@@ -4,8 +4,8 @@ using System.Text;
 
 namespace SWD_lek03_01
 {
-    interface IBtnHandler
+    interface IConsole
     {
-
+        void getinput();
     }
 }
