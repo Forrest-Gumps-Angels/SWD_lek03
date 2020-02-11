@@ -6,6 +6,7 @@ namespace SWD_lek03_01
 {
     interface IBtnHandler
     {
-
+        void StartBtnPushed();
+        void StopBtnPushed();
     }
 }

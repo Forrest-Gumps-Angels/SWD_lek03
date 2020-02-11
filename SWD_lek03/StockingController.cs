@@ -6,5 +6,13 @@ namespace SWD_lek03_01
 {
     class StockingController : IBtnHandler
     {
+        void StartBtnPushed()
+        {
+
+        }
+        void StopBtnPushed()
+        {
+
+        }
     }
 }
