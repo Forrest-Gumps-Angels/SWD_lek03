@@ -4,10 +4,10 @@ using System.Text;
 
 namespace SWD_lek03_01
 {
-    class Console : IConsole
+    public class Console : IConsole
     {
         public IBtnHandler _BtnHandler { private get; set; }
-        Console()
+        public Console()
         {
             _BtnHandler = new StockingController();
         }

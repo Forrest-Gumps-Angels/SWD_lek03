@@ -6,7 +6,11 @@ namespace SWD_lek03
     {
         static void Main(string[] args)
         {
-            
+            SWD_lek03_01.IConsole c = new SWD_lek03_01.Console();
+            while(true)
+            {
+                c.getinput();
+            }
         }
     }
 }

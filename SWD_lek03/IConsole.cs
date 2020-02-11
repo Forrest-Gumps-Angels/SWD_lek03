@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SWD_lek03_01
 {
-    interface IConsole
+    public interface IConsole
     {
         void getinput();
     }
