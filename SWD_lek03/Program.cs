@@ -6,7 +6,7 @@ namespace SWD_lek03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
