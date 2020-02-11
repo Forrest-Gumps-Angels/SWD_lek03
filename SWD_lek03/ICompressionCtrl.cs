@@ -4,7 +4,9 @@ using System.Text;
 
 namespace SWD_lek03_01
 {
-    class ICompressionCtrl
+    interface ICompressionCtrl
     {
+        void Compress();
+        void Decompress();
     }
 }
