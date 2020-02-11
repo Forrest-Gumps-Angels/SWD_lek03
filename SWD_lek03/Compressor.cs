@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SWD_lek03_01
 {
-    class Compressor : ICompressionCtrl
+    public class Compressor : ICompressionCtrl
     {
         public void Compress()
         {

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace SWD_lek03_01
 {
-    class StockingController : IBtnHandler
+    public class StockingController : IBtnHandler
     {
         public ICompressionCtrl CompressionController { private get; set; }
 
-        StockingController()
+        public StockingController()
         {
             CompressionController = new Compressor();
         }
