@@ -6,13 +6,19 @@ namespace SWD_lek03_01
 {
     class StockingController : IBtnHandler
     {
-        void StartBtnPushed()
-        {
+        public ICompressionCtrl CompressionController { private get; set; }
 
+        StockingController()
+        {
+            CompressionController = new Compressor();
         }
-        void StopBtnPushed()
+        public void StartBtnPushed()
         {
-
+            CompressionController.Compress();
+        }
+        public void StopBtnPushed()
+        {
+            CompressionController.Decompress();
         }
     }
 }
